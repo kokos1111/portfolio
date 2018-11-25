@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main-header {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    background-size: cover;
+    background-image: url(../header.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    align-items: center;
+}
+
+#main-header-content {
+    text-align: center;
+    
+}
+.button {
+    height: 15px;
+    width: 20px;
+    background: #333;
+    border: 2px solid #007bff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+hr {
+    width: 50px;
+    border-color: #007bff;
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+    margin: 0;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+.menu {
+    text-align: center;
+    background-color: #007bff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.list {
+    display: inline-block;
+    
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    
+}
+#about img {
+    border-radius: 50%;
+}
+
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+container {
+   max-width: 80%; 
+}
+
+.portfolio-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap img {
+    width: 100%;
+    height: 100%;
+}
+.wrap {
+    flex-basis: 25%;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+}
